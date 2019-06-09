@@ -60,11 +60,24 @@ b = a
 a = 'XYZ'
 print(b)
 #练习题
+"""
+请打印出以下变量的值：
+
+# -*- coding: utf-8 -*-
+n = 123
+f = 456.789
+s1 = 'Hello, world'
+s2 = 'Hello, \'Adam\''
+s3 = r'Hello, "Bart"'
+s4 = r'''Hello,
+Lisa!'''
+"""
+print('方法一')
 print('n = \'123\'', '\n'  'f = \'456.789\'', '\n' 's1 = Hello,World', '\n' 's2 =', r'Hello,\'Adam \'',
 """
 s3 = r'Hello,"Bart"'
 """
 """s4 = r'''Hello,
 Lisa!'''""" )
-
+print('方法二')
 print('n =  \'123\'', '\n' 'f = \'456.789\'','\n' 's1 = Hello,World', '\n'"s2 = r\'Hello,\\'Admin\\'\'", '\n' "s3 = r\'Hello\"Bart\"\'" '\n' "s4 = r\'\'\'Hello,\nLisa! \'\'\'")
