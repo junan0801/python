@@ -13,3 +13,20 @@ dict内部存放的顺序和key放入的顺序是没有关系的。
 查找和插入的时间随着元素的增加而增加；
 占用空间小，浪费内存很少。
 """
+s = set([1, 2, 3])
+print(s)
+s1 = set([1, 2, 2, 3, 4])
+print(s1)
+s1.add(5)
+print(s1)
+print('s1 &s=', s1 & s)
+s1.remove(5)
+print(s1)
+# dict
+d = (1, 2, 3)
+print(d)
+d1 = (1, [2, 3])
+print(d1)
+# set
+s = set([1, 2, 3])
+print(s)
