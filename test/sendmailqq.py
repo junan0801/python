@@ -10,12 +10,13 @@ password = 'symvytijjqnxhfaj'
 # 发送邮箱
 sender = '1219052759@qq.com'
 # 接受邮箱
-receiver = '656540580@qq.com'
+#receiver = '656540580@qq.com'
+receiver = 'zhangjunan@moxiu.net'
 
 # 创建一个带附件的实例
 message = MIMEMultipart()
 message['From'] = Header('Python 3 smtp', 'utf-8')
-message['To'] = Header('测试', 'utf-8')
+message['To'] = Header('收件人昵称', 'utf-8')
 subject = 'Python SMTP邮件测试'
 message['Subject'] = Header(subject, 'utf-8')
 

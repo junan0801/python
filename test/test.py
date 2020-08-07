@@ -1,3 +1,8 @@
-nu = '10.0.0.2'
-url = 'https://'+str(nu)+'/login.html'
-print(url)
+class student(object):
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+
+bart = student('jun', 99)
+print(bart.score)
